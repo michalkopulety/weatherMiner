@@ -1,0 +1,25 @@
+{
+  "name": "weatherminer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.9",
+    "cheerio-tableparser": "^1.0.1",
+    "express": "^4.17.1",
+    "googleapis": "^75.0.0",
+    "node-html-parser": "^3.3.5",
+    "qs": "^6.10.1",
+    "table-scraper": "^1.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
